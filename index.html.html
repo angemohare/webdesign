@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angelica Arty</title>
+
+    <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <h2 class="logo">Angelica Arty</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero hidden">
+    <div class="hero-text">
+        <h1 class="typing"></h1>
+        <p>Digital Posters | Sketches | Painting | Custom Orders</p>
+        <button onclick="scrollToContact()">Order Now</button>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about hidden" id="about">
+    <img src="your-image.jpg" alt="Angel Mohare">
+    <div>
+        <h2>Artist Angel Mohare</h2>
+        <p>
+            I am a passionate artist specializing in custom digital posters,
+            handmade sketches, painting and creative home decor.
+            My goal is to turn your ideas into meaningful and beautiful art.
+        </p>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services hidden" id="services">
+    <h2>Services</h2>
+    <div class="service-box">
+        <h3>Custom Posters</h3>
+        <p>Wedding, event & personalized poster designs.</p>
+    </div>
+    <div class="service-box">
+        <h3>Sketches</h3>
+        <p>Handmade pencil & color sketches.</p>
+    </div>
+    <div class="service-box">
+        <h3>Rukhwat</h3>
+        <p>Traditional customized wedding Rukhwat art.</p>
+    </div>
+    <div class="service-box">
+        <h3>Home Decor</h3>
+        <p>Handcrafted wall & decorative art pieces.</p>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery hidden">
+    <h2>My Art Gallery</h2>
+    <div class="gallery-grid">
+        <img src="art1.jpg">
+        <img src="art2.jpg">
+        <img src="art3.jpg">
+        <img src="art4.jpg">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact hidden" id="contact">
+    <h2>Contact & Order</h2>
+    <p>WhatsApp: +91 8446784548</p>
+    <p>Instagram: @angelica_arty</p>
+    <p>Email: mohareangel10@gmail.com</p>
+    <a href="https://wa.me/918446784548" target="_blank" class="whatsapp-btn">
+   Order on WhatsApp
+</a>
+    <button onclick="showMessage()">Place Order</button>
+</section>
+
+<footer>
+    <p>Thank you for visiting | Art by Angelica_Arty 💖</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
